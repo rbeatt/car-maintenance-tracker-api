@@ -1,0 +1,55 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Entity Framework Core
+Migrations/*Designer.cs
+Migrations/*Snapshot.cs
+
+# Secrets
+secrets.json
+*.pfx
+*.key
+*.cer
+
+# ASP.NET Core environment files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Dotnet tools
+*.db
+*.sqlite
+
+# Rider
+.idea/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# npm packages (if any frontend)
+node_modules/
+
+# Others
+*.vspscc
+*.vssscc
+_ReSharper*/
