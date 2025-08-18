@@ -56,7 +56,7 @@ jobs:
           ConnectionStrings__DefaultConnection: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
         run: |
           $env:PATH += ";$env:USERPROFILE\.dotnet\tools"
-          dotnet ef database update --connection "$env:ConnectionStrings__DefaultConnection"
+          dotnet ef database update --connection "$env:ConnectionStrings__DefaultConnection" --project ./CarMaintenanceTracker.Api.csproj
 
       - name: Login to Azure
         uses: azure/login@v2
