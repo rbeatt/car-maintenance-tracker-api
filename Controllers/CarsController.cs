@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CarMaintenanceTracker.Api.Models;
 using CarMaintenanceTracker.Api.Services;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 
 namespace CarMaintenanceTracker.Api.Controllers

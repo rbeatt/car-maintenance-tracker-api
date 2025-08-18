@@ -11,7 +11,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
-// Optionally: builder.Logging.AddAzureWebAppDiagnostics(); // For Azure
 
 // Add services to the container.
 builder.Services.AddControllers();

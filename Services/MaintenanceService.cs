@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using CarMaintenanceTracker.Api.Models;
 using CarMaintenanceTracker.Api.Data;

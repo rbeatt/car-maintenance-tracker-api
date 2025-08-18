@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using CarMaintenanceTracker.Api.Models;
 
 namespace CarMaintenanceTracker.Api.Services
